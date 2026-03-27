@@ -1,0 +1,421 @@
+body{
+  font-family: 'Lato', sans-serif;
+  padding-top: 90px;
+  margin: 0; 
+}
+
+
+.custom-navbar {
+  background-color: #FBEBB5;
+  padding: 20px 0;
+  z-index: 999;
+}
+
+.navbar-nav .nav-link {
+  color: #000;
+  font-weight: 500;
+}
+
+.navbar-icons span {
+  cursor: pointer;
+}
+
+.hero {
+  
+  min-height: 100vh;
+  display: flex;
+  background-color: #FBEBB5;
+  width: 100%;
+}
+
+.hero-image img{
+  width: 400px;
+}
+.hero-content a {
+  color: #000;
+  text-decoration: none; 
+  font-weight: 500;}
+
+  @media (max-width: 768px){
+  .hero{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+  .card{
+    height: 300px;
+    object-fit: cover;
+  }                        
+.product-section {
+  background-color:#FAF4F4;
+}
+
+.product-card {
+  padding: 20px;
+}
+
+.product-img {
+  max-height: 260px;
+  object-fit: contain;
+  margin-bottom: 25px;
+}
+
+.product-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.product-link {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 2px;
+}
+
+.product-link i {
+  margin-left: 6px;
+  font-size: 13px;
+}
+
+.zeno-picks{
+  background-color: #fff;
+}
+.zeno-picks-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+
+.zeno-picks-subtitle {
+  font-size: 14px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.zeno-product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.zeno-product-img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: contain;
+}
+
+.zeno-product-name {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+.zeno-product-price {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.zeno-view-more {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  padding-bottom: 3px;
+}
+.order {
+  min-height: 80vh;
+  background-image: url("../img/chair/Asgaard\ sofa.webp");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: left center;
+  position: relative;
+}
+
+.order-content h2 {
+  color: #000;
+  font-size: 2.5rem;
+}
+
+.order-content p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.order-content .btn {
+  border-width: 2px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.order-content .btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .order {
+    background-size: 60%;
+    min-height: 70vh;
+  }
+  
+  .order-content {
+    text-align: center !important;
+  }
+  
+  .order-content h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .order {
+    background-size: 100%;
+    background-position: top center;
+    min-height: 60vh;
+    padding-top: 50%;
+  }
+  
+  .order-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .order-content h2 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .order {
+    min-height: 50vh;
+    padding-top: 60%;
+  }
+  
+  .order-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  .order-content .btn {
+    padding: 10px 30px !important;
+    font-size: 0.9rem;
+  }
+}
+.blogs-section{
+    background-color:#ffffff;
+}
+
+
+.blogs-title{
+  font-weight: 600;
+  font-size: 32px;
+}
+
+
+.blogs-subtitle{
+  color: #777;
+  margin-top: 10px;
+}
+
+
+.blog-card{
+  text-align: center;
+}
+
+
+.blog-card img{
+  border-radius: 12px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+
+.blog-text{
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+
+.read-more{
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  position: relative;
+}
+
+
+.read-more::after{
+  content: "";
+  display: block;
+  width: 60%;
+  height: 2px;
+  background: black;
+  margin: auto;
+  margin-top: 5px;
+}
+
+
+.blog-info{
+  margin-top: 15px;
+  color: #777;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 14px;
+}
+
+
+.view-post{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  border-bottom: 2px solid black;
+  padding-bottom: 2px;
+}
+
+
+.blog-card:hover{
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+
+.instagram-section{
+
+  min-height: 450px;
+
+background-image: url("../img/chair/Rectangle\ .webp");
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+}
+
+
+.instagram-title{
+
+  font-size: 36px;
+
+  font-weight: 600;
+
+}
+
+
+.instagram-subtitle{
+
+  color: #555;
+
+  margin: 10px 0 20px;
+
+}
+
+
+.instagram-btn{
+
+  background: white;
+
+  padding: 12px 30px;
+
+  border-radius: 30px;
+
+  text-decoration: none;
+
+  color: black;
+
+  font-weight: 500;
+
+  display: inline-block;
+
+  transition: 0.3s;
+
+}
+
+
+.instagram-btn:hover{
+
+  background: black;
+
+  color: white;
+
+}
+
+.footer-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.footer-title {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  color: #555;
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  color: #b88e2f;
+}
+
+.footer-address {
+  color: #777;
+  line-height: 1.6;
+}
+
+.newsletter-box {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.newsletter-box input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.newsletter-box button {
+  padding: 8px 12px;
+  border: none;
+  background: #b88e2f;
+  color: white;
+  cursor: pointer;
+}
+
+.footer-copy {
+  margin-top: 20px;
+  color: #777;
+  text-align: center;
+}
+@media (max-width: 768px) {
+
+  .newsletter-box {
+    flex-direction: column;
+  }
+
+  .newsletter-box button {
+    width: 100%;
+  }
+
+}
+

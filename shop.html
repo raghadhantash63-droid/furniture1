@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+  <link rel="stylesheet" href="./assets/css/shop.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+      <div class="container">
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+<ul class="navbar-nav mx-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Home</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="shop.html">Shop</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="single.html">Product</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="account.html">Account</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="check.html">Checkout</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link" href="blog.html">Blog</a>
+  </li>
+</ul>
+
+          <div class="navbar-icons d-flex gap-3">
+            <span class="material-icons-outlined">person</span>
+            <span class="material-icons-outlined">search</span>
+            <span class="material-icons-outlined">favorite_border</span>
+            <span class="material-icons-outlined">shopping_cart</span>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    
+    <section class="shop-hero text-center">
+
+      <div class="container">
+
+        <img src="./assets/img/shop/logo.webp" class="shop-logo" alt="logo">
+
+        <h1 class="shop-title">Shop</h1>
+
+        <div class="breadcrumb-custom">
+          <a href="index.html">Home</a>
+          <span> ></span>
+          <span class="active">Shop</span>
+        </div>
+
+      </div>
+
+    </section>
+  
+ <!--<section class="shop-filter py-3">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-md-6 d-flex gap-3 align-items-center">
+            <button class="btn btn-light">
+              <i class="bi bi-sliders"></i> Filter
+            </button>
+
+            <span>Showing 1–16 of 32 results</span>
+          </div>
+
+          <div class="col-md-6 d-flex justify-content-md-end gap-3 mt-3 mt-md-0">
+
+            <div>
+              <label>Show</label>
+              <select class="form-select d-inline w-auto">
+                <option>16</option>
+                <option>32</option>
+                <option>64</option>
+              </select>
+            </div>
+
+            <div>
+              <label>Sort by</label>
+              <select class="form-select d-inline w-auto">
+                <option>Default</option>
+                <option>Price</option>
+                <option>Newest</option>
+              </select>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+-->
+
+  <!--    <section class="products-section py-5">
+  <div class="container">
+
+    <div class="row g-4">
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair1.webp" class="img-fluid product-img">
+          <h6 class="product-title">Trenton modular sofa_3</h6>
+          <p class="price">Rs. 25,000.00</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair2.webp" class="img-fluid product-img">
+          <h6 class="product-title">Granite dining table</h6>
+          <p class="price">Rs. 25,000.00</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair3.webp" class="img-fluid product-img">
+          <h6 class="product-title">Outdoor bar table</h6>
+          <p class="price">Rs. 25,000.00</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair4.webp" class="img-fluid product-img">
+          <h6 class="product-title">Plain console</h6>
+          <p class="price">Rs. 25,000.00</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair5.webp" class="img-fluid product-img">
+          <h6 class="product-title">Grain coffee table</h6>
+          <p class="price">Rs. 15,000.00</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair6.webp" class="img-fluid product-img">
+          <h6 class="product-title">Kent coffee table</h6>
+          <p class="price">Rs. 225,000.00</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair7.webp" class="img-fluid product-img">
+          <h6 class="product-title">Round coffee table</h6>
+          <p class="price">Rs. 251,000.00</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair8.webp" class="img-fluid product-img">
+          <h6 class="product-title">Reclaimed teak table</h6>
+          <p class="price">Rs. 25,200.00</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair9.webp" class="img-fluid product-img">
+          <h6 class="product-title">Plain console</h6>
+          <p class="price">Rs. 258,200.00</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair10.webp" class="img-fluid product-img">
+          <h6 class="product-title">Teak Sideboard</h6>
+          <p class="price">Rs. 20,000.00</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair11.webp" class="img-fluid product-img">
+          <h6 class="product-title">SJP_0825</h6>
+          <p class="price">Rs. 200,000.00</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair12.webp" class="img-fluid product-img">
+          <h6 class="product-title">Bella chair</h6>
+          <p class="price">Rs. 100,000.00</p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair13.webp" class="img-fluid product-img">
+          <h6 class="product-title">Plain console</h6>
+          <p class="price">Rs. 258,200.00</p>
+        </div>
+      </div>
+<div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair14.webp" class="img-fluid product-img">
+          <h6 class="product-title">Plain console</h6>
+          <p class="price">Rs. 258,200.00</p>
+        </div>
+      </div>
+  <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair15.webp" class="img-fluid product-img">
+          <h6 class="product-title">Plain console</h6>
+          <p class="price">Rs. 258,200.00</p>
+        </div>
+      </div>
+ <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="product-card text-center">
+          <img src="./assets/img/shop/chair16.webp" class="img-fluid product-img">
+          <h6 class="product-title">Plain console</h6>
+          <p class="price">Rs. 258,200.00</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="pagination-box text-center mt-5">
+      <button class="page-btn active">1</button>
+      <button class="page-btn">2</button>
+      <button class="page-btn">3</button>
+      <button class="page-btn next">Next</button>
+    </div>
+
+  </div>
+</section>
+
+-->
+    <!--    <section class="Payment">
+          <div class="container py-5">
+        <div class="row">
+            <div class="col-md-4 feature-item">
+                <h3>Free Delivery</h3>
+                <p>For all orders over $50, consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-md-4 feature-item">
+                <h3>90 Days Return</h3>
+                <p>If goods have problems, consectetur adipiscing elit.</p>
+            </div>
+            <div class="col-md-4 feature-item">
+                <h3>Secure Payment</h3>
+                <p>100% secure payment, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+    </div>
+
+    </section>
+-->
+    
+  </main>
+ <!--  <footer class="footer-section">
+
+<div class="container">
+
+<div class="row gy-4">
+
+  <div class="col-lg-4 col-md-12">
+    <p class="footer-address">
+      400 University Drive Suite 200 Coral <br>
+      Gables, <br>
+      FL 33134 USA
+    </p>
+  </div>
+
+
+  <div class="col-lg-2 col-md-4 col-6">
+
+    <h6 class="footer-title">Links</h6>
+
+    <ul class="footer-links">
+      <li>Home</li>
+      <li>Shop</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+
+  </div>
+
+
+  <div class="col-lg-3 col-md-4 col-6">
+
+    <h6 class="footer-title">Help</h6>
+
+    <ul class="footer-links">
+      <li>Payment Options</li>
+      <li>Returns</li>
+      <li>Privacy Policies</li>
+    </ul>
+
+  </div>
+
+
+  <div class="col-lg-3 col-md-4 col-12">
+
+    <h6 class="footer-title">Newsletter</h6>
+
+    <div class="newsletter-box">
+
+      <input type="email" placeholder="Enter Your Email Address">
+
+      <button>SUBSCRIBE</button>
+
+    </div>
+
+  </div>
+</div>
+
+<hr>
+
+<p class="footer-copy">
+  2022 Meubel House. All rights reverved
+</p>
+
+</div>
+
+</footer>
+-->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
